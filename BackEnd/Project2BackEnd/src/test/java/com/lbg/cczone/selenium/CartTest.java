@@ -32,6 +32,17 @@ public class CartTest {
 
 	private RemoteWebDriver driver;
 
+	 @BeforeClass
+    public static void setupAll() {
+        WebDriverManager.edgedriver().setup();
+    }
+
+    @Test
+    public void openSite() {
+        WebDriver driver = new EdgeDriver();
+        driver.get("https://example.com");
+    }
+
 	@BeforeEach
 	void init() {
 		this.driver = new EdgeDriver();
