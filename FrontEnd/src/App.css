@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+#cartSearch {
+  
+  display: inline-block;
+  
+  
+
+}
+#cartCreate {
+  
+  display: inline-block;
+  padding:20px;
+  margin:50px;
+  background-color: white;
+  /* border:solid; 
+  borderColor:   black; */
+
+}
+.homeimage {
+  /* background: url("../src/pictures/homeLogo.jpg"); */
+  background-size: auto;
+  background-repeat: no-repeat;
+  height: 1vh;
+  background-position: left;
+
+}
+body{
+  background: url("../src/pictures/homeBackground.jpg");
+  background-size: cover;
+  height: 112vh;
+  background-repeat: no-repeat;
+  background-position: center;
+ 
+}
+.numberCircle {
+  border-radius: 50%; 
+  width: 30px;
+  height: 30px;
+   padding: 4px; 
+
+  background:red;
+  /* border:2px solid #666; */
+  color: #666;
+  color: white;
+  text-align: center;
+
+  font: 15px Arial, sans-serif;
+}
+
+.topright {
+  position: absolute;
+  top: 230px;
+  right: 36px;
+  
+  
+}
+
+.topleft {
+  position: absolute;
+  top: 150px;
+  left: 0px;
+  
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+ 
+}
+.center {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+}
+.bottomright {
+  position: absolute;
+  bottom: 8px;
+  right: 1px;
+ 
+}
